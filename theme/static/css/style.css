@@ -1,0 +1,143 @@
+/* Set default font and color */
+body {
+    font-family: "PT Serif", serif, Georgia, Times New Roman, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+
+}
+
+p {
+    margin: 1rem 0 1rem 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+    margin: 0 0 5px 0;
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+li {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.btn-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 2%;
+}
+
+.btn-wrapper a {
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    max-height: 2rem;
+    text-align: center;
+}
+
+.btn-wrapper a:hover {
+    background-color: #282828;
+    color: #fff;
+}
+
+/* Images */
+img {
+    max-width: 40vw;
+    margin: 1rem 0;
+}
+
+/* Footer */
+footer {
+    padding: 1.5rem;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Main Content */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    flex: 1;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+}
+
+/* Project Section */
+.project {
+    width: 60vw;
+    text-align: center;
+}
+
+/* Header Section */
+.header {
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    word-spacing: -2px;
+    font-weight: 700;
+}
+
+.header h2 {
+    font-size: 1.5rem;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 2%; 
+    width: 60vw; 
+    flex-wrap: wrap; 
+    margin: auto;
+}

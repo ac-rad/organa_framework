@@ -1,10 +1,8 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
-title: "MVTrans: Multi-View Perception of Transparent Objects"
-repository_url: "https://github.com/ac-rad/MVTrans"
+title: "Science Robotics"
+repository_url: "https://github.com/ac-rad/organa"
 show_arxiv: true
-arxiv_url: "https://arxiv.org/abs/2302.11683"
-show_dataset: true
-dataset_url: "https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/LQKTXE"
-description: <a href="https://www.linkedin.com/in/yi-ru-helen-wang/" style="color:#bfd6d8">Yi Ru Wang</a>, <a href="https://www.linkedin.com/in/yuchi-allan-zhao/" style="color:#bfd6d8">Yuchi Zhao</a>, <a href="https://www.linkedin.com/in/haoping-xu-0b3b44a4/" style="color:#bfd6d8" >Haoping Xu</a>, Sagi Eppel, Alan Aspuru-Guzik, Florian Shkurti, Animesh Garg
+arxiv_url: "insert paper link"
+description: Insert authors

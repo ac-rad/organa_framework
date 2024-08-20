@@ -1,0 +1,14 @@
+{
+  "name": "generate_pourbaix_plot",
+  "description": "Generate pourbaix plot from pH and potential values and predict pKa value(s).",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "data": {
+        "type": "object",
+        "description": "List of data points, where each data point is a dictionary containg pH, eV keys"
+      }
+    },
+    "required": ["data"]
+  }
+}

@@ -1,0 +1,10 @@
+quinone solution
+NaCl solution
+water
+pH 4 buffer solution
+pH 5 buffer solution
+pH 6 buffer solution
+pH 7 buffer solution
+pH 8 buffer solution
+pH 9 buffer solution
+pH 10 buffer solution

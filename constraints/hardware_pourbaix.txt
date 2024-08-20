@@ -1,0 +1,5 @@
+experiment_beaker
+waste_beaker
+wash_beaker
+ph_probe
+potentiostat

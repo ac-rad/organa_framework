@@ -1,0 +1,8 @@
+I want to create a Pourbaix plot of a quinone, Sodium Anthraquinone-1-sulfonate. I have a 2mM solution of the quinone. These are the other solutions I have access to: acetic acid and sodium hydroxide. 
+
+I will tell you how to run a single experiment:
+
+<Thought>I want to make a solution that has a lower pH than the current solution. Because it's the first scan, I will first measure the pH and run a CV plot.</Thought>
+<Action>Measure the pH and run a CV plot. Add 2 mL of quinone, 17 mL of NaCl solution, and 1 mL of acetic acid. Stir for 10 seconds. Measure the pH and run a CV plot.</Action> 
+<Expected Observation>I expect the pH of the solution to decrease and the redox potential to increase.</Expected Observation>
+

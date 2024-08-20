@@ -1,0 +1,4 @@
+Rules:
+1. You don't have to make the solution from scratch each time, only when I tell you to.
+2. Format the plan using <Thought>, <Action>, <Expected Output> tags.
+3. If you see feedback in <System Feedback> tags, consider them when planning the next experiment.

@@ -1,0 +1,10 @@
+This was an experiment a robot was asked to do:
+
+{0}
+
+After performing the experiment, these are the outcomes:
+
+{1}
+
+{2}
+Do the actual outcomes of the experiment match the expected outcomes? Begin your answer with <YES> or <NO>, followed by the explanation.

@@ -1,0 +1,29 @@
+<XDL>
+  <Synthesis>
+      <Hardware>
+          <Component id="experiment_beaker" />
+          <Component id="waste_beaker" />
+          <Component id="wash_beaker" />
+          <Component id="ph_probe" />
+          <Component id="potentiostat" />
+      </Hardware>
+
+      <Reagents>
+          <Reagent name="quinone solution" />
+          <Reagent name="acid solution" />
+          <Reagent name="base solution" />
+          <Reagent name="NaCl solution" />
+      </Reagents>
+
+      <Procedure>
+          <Monitor vessel="experiment_beaker" quantity="pH" />
+          <RunCV />
+          <Add vessel="experiment_beaker" reagent="quinone solution" volume="2 mL" />
+          <Add vessel="experiment_beaker" reagent="NaCl solution" volume="17 mL" />
+          <Add vessel="experiment_beaker" reagent="acid solution" volume="1 mL" />
+          <Stir vessel="experiment_beaker" time="10s" />
+          <Monitor vessel="experiment_beaker" quantity="pH" />
+          <RunCV />
+      </Procedure>
+  </Synthesis>
+</XDL>

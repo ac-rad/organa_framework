@@ -1,0 +1,1 @@
+Based on this experiment goal: {0}, what type of experiment is being done? Select type from [POURBAIX, TITRATION, SOLUBILITY, RECRYSTALLIZATION, NONE]. Only return type, nothing else. If you are uncertain, return NONE

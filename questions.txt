@@ -1,0 +1,11 @@
+🏋️ In the lab, some of the tasks I do can be automated.
+🏋️ I waste a significant amount of time doing repetitive tasks in the lab 
+🏋️ I would like it if an autonomous agents were to take over some of the tasks I need to do in a lab.
+🏋️ I would be comfortable with an autonomous agent like a robot performing some of the tasks I need to do in the lab.
+👀 I would be comfortable interfacing with a robot using a graphic user interface (GUI)
+👀 I would be comfortable interfacing with a robot using a command-line interface (CLI)
+👀 I would be comfortable interfacing with a robot using  voice commands
+🏋️  I found it easy to interact with Organa, either through speaking or typing.
+🚀  Organa was able to capture the experiment I wanted to perform with little to no issues.
+🚀  I preferred speaking with Organa rather than typing.
+🚀  I believe Organa could save me time compared to creating an initial system setup from code.

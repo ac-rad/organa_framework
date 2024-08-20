@@ -1,0 +1,9 @@
+Experiment goal: {0}
+Lab equipment and reagents: {1}
+
+I will tell you how to run a single experiment:
+
+<Thought>{2}</Thought>
+<Action>{3}</Action> 
+<Expected Observation>{4}</Expected Observation>
+

@@ -1,0 +1,3 @@
+Experiment goal: {0}
+
+Can you propose the next experiment to try, as well as the output you expect to see?

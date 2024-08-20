@@ -1,0 +1,4 @@
+numpy
+openai==0.28.1
+SpeechRecognition
+playsound

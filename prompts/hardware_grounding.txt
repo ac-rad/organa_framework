@@ -1,0 +1,10 @@
+These are the official names of hardware vessels in a chemistry lab:
+  {0}
+
+These are user descriptions of those vessels, not necessarily that order:
+  {1}
+
+Match the official names to the user descriptions using the following format:
+[start matching]
+<user description>|<official_name>
+[end matching]

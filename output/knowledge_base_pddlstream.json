@@ -1,0 +1,228 @@
+{
+    "objects": {
+        "wash_beaker": {
+            "object_type": "beaker",
+            "pose": [
+                0.6908,
+                -0.0019,
+                0.1047
+            ],
+            "bbox_xyxy": [
+                644,
+                250,
+                737,
+                382
+            ],
+            "user_descr": "Beaker.",
+            "content": []
+        },
+        "polish_plate": {
+            "object_type": "polishing_pad",
+            "pose": [
+                0.6275,
+                -0.2484,
+                0.1015
+            ],
+            "bbox_xyxy": [
+                917,
+                305,
+                1002,
+                355
+            ],
+            "user_descr": "That's the polishing pad."
+        },
+        "scale": {
+            "object_type": "polishing_pad",
+            "pose": [
+                0.6606,
+                -0.027,
+                0.0609
+            ],
+            "bbox_xyxy": [
+                603,
+                323,
+                755,
+                417
+            ],
+            "user_descr": "Scale."
+        },
+        "experiment_beaker": {
+            "object_type": "beaker",
+            "pose": [
+                0.6837,
+                0.2682,
+                -0.0112
+            ],
+            "bbox_xyxy": [
+                354,
+                379,
+                407,
+                474
+            ],
+            "user_descr": "That's the experiment beaker.",
+            "content": []
+        },
+        "observation": [
+            {
+                "pH": 3.88,
+                "eV": -0.3873686363636364
+            },
+            {
+                "pH": 4.79,
+                "eV": -0.430945
+            }
+        ],
+        "waste_beaker": {
+            "object_type": "glass",
+            "content": [],
+            "pose": null
+        },
+        "ph_probe": {
+            "object_type": "glass",
+            "content": [],
+            "pose": null
+        },
+        "potentiostat": {
+            "object_type": "glass",
+            "content": [],
+            "pose": null
+        }
+    },
+    "reagents": {
+        "quinone": {
+            "type": "reagent",
+            "content": [
+                "quinone"
+            ],
+            "volume": null
+        },
+        "nacl": {
+            "type": "reagent",
+            "content": [
+                "nacl"
+            ],
+            "volume": null
+        },
+        "water": {
+            "type": "reagent",
+            "content": [
+                "water"
+            ],
+            "volume": null
+        },
+        "pH_4_buffer": {
+            "type": "reagent",
+            "content": [
+                "pH_4_buffer"
+            ],
+            "volume": null
+        },
+        "pH_5_buffer": {
+            "type": "reagent",
+            "content": [
+                "pH_5_buffer"
+            ],
+            "volume": null
+        },
+        "pH_6_buffer": {
+            "type": "reagent",
+            "content": [
+                "pH_6_buffer"
+            ],
+            "volume": null
+        },
+        "pH_7_buffer": {
+            "type": "reagent",
+            "content": [
+                "pH_7_buffer"
+            ],
+            "volume": null
+        },
+        "pH_8_buffer": {
+            "type": "reagent",
+            "content": [
+                "pH_8_buffer"
+            ],
+            "volume": null
+        },
+        "pH_9_buffer": {
+            "type": "reagent",
+            "content": [
+                "pH_9_buffer"
+            ],
+            "volume": null
+        },
+        "pH_10_buffer": {
+            "type": "reagent",
+            "content": [
+                "pH_10_buffer"
+            ],
+            "volume": null
+        }
+    },
+    "goals": [
+        [
+            "pump",
+            "pH9buffer",
+            "beaker",
+            "6"
+        ],
+        [
+            "pump",
+            "nacl",
+            "beaker",
+            "3"
+        ],
+        [
+            "pump",
+            "water",
+            "beaker",
+            "15"
+        ],
+        [
+            "pump",
+            "quinone",
+            "beaker",
+            "6"
+        ],
+        [
+            "monitor",
+            "experiment_beaker",
+            "pH"
+        ],
+        [
+            "RunCV"
+        ],
+        [
+            "flush",
+            "experiment_beaker",
+            "waste_beaker"
+        ]
+    ],
+    "observation": [
+        {
+            "pH": 3.88,
+            "eV": -0.3873686363636364
+        },
+        {
+            "pH": 4.79,
+            "eV": -0.430945
+        },
+        {
+            "pH": 5.98,
+            "eV": -0.492
+        },
+        {
+            "pH": 6.9,
+            "eV": -0.5640319444444445
+        },
+        {
+            "pH": 7.83,
+            "eV": -0.6308004545454545
+        },
+        {
+            "pH": 9.46,
+            "eV": -0.672945
+        }
+    ]
+}

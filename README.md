@@ -1,6 +1,6 @@
 # ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization
 
-[**Paper**](https://ac-rad.github.io/organa/) | [**Project**](https://ac-rad.github.io/organa/) | [**Video**](https://www.youtube.com/watch?v=fpe1_2FeMnE)
+[**Paper**](https://ac-rad.github.io/organa/) | [**Project**](https://ac-rad.github.io/organa/) | [**Video**](https://www.youtube.com/watch?v=N6qMMwJ8hKQ)
 
 This is the repository that contains the source code for the ORGANA website. 
 
